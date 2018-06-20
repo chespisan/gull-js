@@ -1,0 +1,6 @@
+/** poo con typescript
+ * 
+ */
+
+ 
+

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "nombre": "sergio",
+        "empresa": "empresa1",
+        "cargo": "desarrollador"
+    },
+    {
+        "id": "2",
+        "nombre": "alejandra",
+        "empresa": "empresa2",
+        "cargo": "abogada"
+    },
+    {
+        "id": "3",
+        "nombre": "diego",
+        "empresa": "empresa3",
+        "cargo": "fotografo"
+    },
+    {
+        "id": "4",
+        "nombre": "jose",
+        "empresa": "empresa4",
+        "cargo": "contador"
+    },
+    {
+        "id": "5",
+        "nombre": "mario",
+        "empresa": "empresa5",
+        "cargo": "estudiante"
+    }
+]

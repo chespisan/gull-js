@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <!-- Existen  muchos tipos de formularios:
+        * Elementos que reciben informacion -> input
+        * E>lementos que muestran informacion -> label, tambien (captions)
+        * Elementos para agrupar -> fieldset
+        * Elemento "leyend" puede ser el titulo de un fieldset
+    -->
+    <label for="">Tipo de formularios</label>
+    <input type="text">
+    <input type="password">
+    <input type="email">
+    <input type="number">
+    <input type="radio">
+    <input type="checkbox">
+    <input type="tel">
+    <input type="search">
+    <input type="range" min="" max="" step="">
+    <input type="url">
+    <input type="date">
+    <input type="color" name="" id="">
+    <input type="file" name="" id="">
+    <input type="reset">
+
+    <h1>Select</h1>
+    <select name="pais" id="pais">
+        <optgroup label="America">
+            <option value="Colombia">Colombia</option>
+            <option value="Chile">Chile</option>
+            <option value="Peru">Peru</option>
+        </optgroup>
+        <optgroup label="Europa">
+            <option value="España">España</option>
+            <option value="Francia">Francia</option>
+        </optgroup>
+    </select>
+    
+    <h1>Text Area</h1>
+    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+
+
+    <!-- Atributos para formularios 
+        BOOLEAN:
+        * required -> obligatorio
+        * disabled -> campo desactivado
+        * enabled -> campo activado
+        * checked -> un radio o checkbox este activado por defecto
+        * selected -> para seleccionar
+        * autofocus -> un elemento este por defecto automatico
+        * readonly -> elementos oslo lectura, no se podra interactuar con ellos
+        
+        OTROS:
+        * maxlength y minlength ->  maximo y minimo de caracteres introducidos
+        * max y min -> es para dar un maximo y minimo de valores numericos
+        * step -> saltos en un tipo range
+        * tabindex -> varea el nombre en qu evarea el tabulador
+        * autocomplete -> directamente en el form, on || of, si se autocompleta con el formulario
+        * 
+    
+    -->
+
+
+    <!-- Nuevos elementos html 
+    
+        *menu -> todavia no esta soportado
+        * details y dentro summary
+        * img responsive
+    
+    -->
+</body>
+</html>

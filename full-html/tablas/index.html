@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>tablas</h1>
+    <table border="1">
+        <caption>Estudiantes HTML</caption>
+        <colgroup>
+            <col span="0">
+            <col style="background: red">
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2">Username</th>
+                <th rowspan="2">Email</th>
+                <th colspan="2">Name</th>
+                <th rowspan="2">Country</th>
+            </tr>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>chespi</td>
+                <td>sergio@mail.com</td>
+                <td>sergio</td>
+                <td>sanchez</td>
+                <td>colombia</td>
+            </tr>
+            <tr>
+                <td>chespi</td>
+                <td>sergio@mail.com</td>
+                <td>sergio</td>
+                <td>sanchez</td>
+                <td>colombia</td>
+            </tr>     
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total de estudiantes</td>
+                <td colspan="2">1</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
